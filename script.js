@@ -8,15 +8,15 @@
 
 incrementBtn.onclick = function() {
     counter++
-    counterValue.textContent = counter;
+    counterValue.innerHTML = counter;
 }
 
 decrementBtn.onclick = function() {
     counter--
-    counterValue.textContent = counter;
+    counterValue.innerHTML = counter;
 }
 
 resetBtn.onclick = function() {
     counter = 0
-    counterValue.textContent = counter;
+    counterValue.innerHTML = counter;
 }
